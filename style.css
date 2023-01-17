@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.main{
+    margin: 5px auto;
+    padding: 10px;
+    background-color: rgba(162, 175, 233, 0.808);
+    max-width: 50%;
+}
+#input{
+ margin-left: 35%;
+ text-align: center;
+}
+.best{
+    
+    padding: 5px;
+    margin-top: 5px;
+  
+}
+.best li{
+    padding: 5px;
+  padding-left: 10px;
+    background-color: aliceblue;
+    list-style-type: none;
+    height: 40px;
+    border-radius: 2px;
+    width: 80%;
+    margin:20px auto;
+    line-height: 35px;
+}
+ul{
+    position: relative;
+}
+ul .fa-check,.fa-trash{
+    cursor: pointer;
+    
+    position: absolute;
+}
+ul .fa-check{
+    line-height: 35px;
+    right: 20%;
+    color: rgb(64, 81, 117);
+}
+ul .fa-trash{
+    line-height: 35px;
+    right: 15%;
+    color: rgb(62, 54, 102);
+}
+li.checked{
+    background-color: rgb(103, 121, 226);
+    text-decoration: line-through ;
+    
+    
+}
